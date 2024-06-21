@@ -12,10 +12,10 @@ const Navbar = () => {
         <img className='mx-2 w-10' src={logo} alt="logo" />
     </div>
     <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-        <a href="https://www.linkedin.com/in/akash-s-9a3376315/"><FaLinkedin /></a>
-        <a href="https://github.com/akashvishal2405/"><FaGithub /></a>
-        <a href=""><FaSquareXTwitter /></a>
-        <a href="https://www.instagram.com/akash.pt_/"><FaInstagram /></a>
+        <a href="https://www.linkedin.com/in/akash-s-9a3376315/" target='_blank'><FaLinkedin /></a>
+        <a href="https://github.com/akashvishal2405/" target='_blank'><FaGithub /></a>
+        <a href="" target='_blank'><FaSquareXTwitter /></a>
+        <a href="https://www.instagram.com/akash.pt_/" target='_blank'><FaInstagram /></a>
     </div>
     </nav>
   )
