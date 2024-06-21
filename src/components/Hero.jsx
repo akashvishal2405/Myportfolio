@@ -1,7 +1,6 @@
 import React from 'react';
 import {HERO_CONTENT} from '../constants/index';
 import ProfilePic from '../assets/akash.jpeg';
-import './Hero.css';
 
 const Hero = () => {
   return (
