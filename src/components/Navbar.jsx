@@ -24,7 +24,7 @@ const Navbar = () => {
         <a href="" target="_blank">
           <FaSquareXTwitter />
         </a>
-        <a href="https://www.instagram.com/akash.pt_/" target="_blank">
+        <a href="https://www.instagram.com/" target="_blank">
           <FaInstagram />
         </a>
       </div>
