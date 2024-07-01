@@ -22,43 +22,43 @@ const Technologies = () => {
         <h1 className='my-20 text-center text-4xl'>Technologies</h1>
         <div className="flex flex-wrap items-center justify-center gap-4">
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                <IoLogoHtml5 className='text-7xl text-cyan-400'/>
+                <IoLogoHtml5 className='text-7xl' style={{color: "#f06529"}}/>
             </div>
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                <IoLogoCss3 className='text-7xl text-cyan-400'/>
+                <IoLogoCss3 className='text-7xl' style={{color: "#264de4"}}/>
             </div>
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                <RiTailwindCssFill className='text-7xl text-cyan-400'/>
+                <RiTailwindCssFill className='text-7xl' style={{color: "#6d28d9"}}/>
             </div>
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                <FaBootstrap className='text-7xl text-cyan-400'/>
+                <FaBootstrap className='text-7xl' style={{color: "#0d6efd"}}/>
             </div>
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                <RiJavascriptLine className='text-7xl text-cyan-400'/>
+                <RiJavascriptLine className='text-7xl' style={{color: "#F0DB4F"}}/>
             </div>
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                <RiReactjsLine className='text-7xl text-cyan-400'/>
+                <RiReactjsLine className='text-7xl text-cyan-400'  />
             </div>
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                <SiPostman className='text-7xl text-cyan-400'/>
+                <SiPostman className='text-7xl 'style={{color: "#ef5b25 "}}/>
             </div>
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                <FaGitAlt className='text-7xl text-cyan-400'/>
+                <FaGitAlt className='text-7xl ' style={{color: "#f34f29  "}}/>
             </div>
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                <IoLogoGithub className='text-7xl text-cyan-400'/>
+                <IoLogoGithub className='text-7xl '/> 
             </div>
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                <SiFirebase className='text-7xl text-cyan-400'/>
+                <SiFirebase className='text-7xl ' style={{color: "#FFA611"}}/>
             </div>
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                <FaNodeJs className='text-7xl text-cyan-400'/>
+                <FaNodeJs className='text-7xl ' style={{color: "#68a063"}}/>
             </div>
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                <SiMysql className='text-7xl text-cyan-400'/>
+                <SiMysql className='text-7xl ' style={{color: "#00758f"}}/>
             </div>
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                <SiMongodb className='text-7xl text-cyan-400'/>
+                <SiMongodb className='text-7xl ' style={{color: "#00758f"}}/>
             </div>
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
                 <SiNetlify className='text-7xl text-cyan-400'/>
