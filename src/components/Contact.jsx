@@ -1,7 +1,7 @@
 import React from 'react';
 import {CONTACT} from '../constants/index';
 import { motion } from "framer-motion";
-import { FaPhoneAlt } from "react-icons/fa";
+
 const Contact = () => {
 
   return (
@@ -16,8 +16,8 @@ const Contact = () => {
         initial={{opacity: 0, x: -100}}
         transition={{duration:1.5}}
         className="text-center tracking-tighter">
-         <FaPhoneAlt /> <p className='my-4'>{CONTACT.phoneNo}</p>
-            <a href="#" className='border-b'>{CONTACT.email}</a>
+         <p className='my-4'>{Phone: CONTACT.phoneNo}</p>
+            <a href="#" className='border-b'>{E-mail: CONTACT.email}</a>
         </motion.div>
     </div>
   )
