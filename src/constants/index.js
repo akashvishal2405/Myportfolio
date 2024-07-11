@@ -1,7 +1,5 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+
+import project5 from "../assets/projects/project-5.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer
 with experience in building scalable web applications. I have honed
@@ -46,33 +44,13 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
+    title: "School Management System",
+    projectStatus: "Work in progress",
+    image: project5,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+      "The School Management system project using the MERN stack aims to streamline administrative tasks within educational institutions. It features a responsive frontend developed with React.js and styled using Tailwind CSS, enhanced with animations using Framer Motion. The backend powered by Node.js and Express.js, manages data stored in MOngoDB, providing efficient CRUD operations for managing students, teachers, courses, and administrative tasks. The system ensures scalability, real-time updates, and a user-friendly interface for seamless school management.",
+    technologies: ["Tailwind CSS", "React", "Node.js", "MongoDB"],
+  }
 ];
 
 export const CONTACT = {
