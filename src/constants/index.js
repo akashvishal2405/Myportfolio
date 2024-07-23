@@ -37,7 +37,8 @@ export const EXPERIENCES = [
     year: "2020 - 2021",
     role: "Software Engineer",
     company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
+    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.
+    `,
     technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
   },
 ];
@@ -48,8 +49,12 @@ export const PROJECTS = [
     projectStatus: "Work in progress",
     image: project5,
     description:
-      "The School Management system project using the MERN stack aims to streamline administrative tasks within educational institutions. It features a responsive frontend developed with React.js and styled using Tailwind CSS, enhanced with animations using Framer Motion. The backend powered by Node.js and Express.js, manages data stored in MOngoDB, providing efficient CRUD operations for managing students, teachers, courses, and administrative tasks. The system ensures scalability, real-time updates, and a user-friendly interface for seamless school management.",
-    technologies: ["Tailwind CSS", "React", "Node.js", "MongoDB"],
+      `* The project leverages React for forontend development, incorporating styled components and Tailwind CSS to ensure a responsive design across all devices. Farmer Motion is utilized for smooth animations, enhancing user interaction and visual appeal.
+      The system includes robust authentication functionalities with login and resgistration processes. Regex 
+      is employed for validation, ensuring secure input handling and data integrity. The project achieves efficient 
+      state management by utilizing Redux Toolkit.`,
+      
+    technologies: ["Tailwind CSS", "React", "Redux", "Regex"],
   }
 ];
 

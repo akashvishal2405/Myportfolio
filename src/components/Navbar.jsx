@@ -1,15 +1,28 @@
 import React from "react";
-import logo from "../assets/kevinRushLogo.png";
+
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
+import Akash_Resume from "../assets/Akash_Resume.pdf";
 
 const Navbar = () => {
   return (
     <nav className=" mb-20 flex items-center justify-between py-6">
       <div className="flex flex-shrink-0 items-center">
-        <img className="mx-2 w-10" src={logo} alt="logo" />
+      <a href={Akash_Resume} download>  <button 
+          style={{
+            backgroundColor: "purple",
+            borderRadius: "10px",
+            color: "white",
+            padding: "4px",
+            cursor: "pointer"
+          }}
+        >
+
+          
+          Download Resume
+        </button></a>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
         <a
